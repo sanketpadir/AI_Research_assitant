@@ -1,0 +1,27 @@
+# Core
+python-dotenv
+
+# Streamlit
+streamlit==1.28.0
+
+# Data processing
+pandas==2.0.3
+numpy<2,>=1.23.5
+scikit-learn==1.3.0
+
+# Image processing
+Pillow<11,>=9.5.0
+
+# Embeddings & NLP
+sentence-transformers>=2.2.2
+huggingface-hub>=0.23.0
+langchain==0.3.26
+langchain-huggingface>=0.1.2
+
+# Vector DB
+faiss-cpu==1.7.4
+
+# Utilities
+tqdm
+tenacity<9,>=8.1.0
+packaging<24,>=21.3
